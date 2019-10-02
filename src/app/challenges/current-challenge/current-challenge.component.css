@@ -1,0 +1,11 @@
+Textfield {
+  border-bottom: #7c015d;
+  border-bottom-width: 1;
+  padding: 10;
+  background: red;
+}
+
+Button {
+  background: orange;
+  width: 100%;
+}
