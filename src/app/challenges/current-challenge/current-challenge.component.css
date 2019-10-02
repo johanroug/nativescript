@@ -1,11 +1,7 @@
-Textfield {
-  border-bottom: #7c015d;
-  border-bottom-width: 1;
-  padding: 10;
-  background: red;
+Label {
+  background: green;
 }
 
-Button {
-  background: orange;
-  width: 100%;
+StackLayout {
+  background: blue;
 }

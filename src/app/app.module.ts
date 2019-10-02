@@ -3,12 +3,10 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 
 import { AppComponent } from "./app.component";
 import { CurrentChallengeComponent } from "./challenges/current-challenge/current-challenge.component";
+import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
-import { NativeScriptFormsModule } from "nativescript-angular/forms";
-import { StackComponent } from './layouts/stack/stack.component';
-import { FlexComponent } from './layouts/flex/flex.component';
-import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-edit.component';
 
 // Uncomment and add to NgModule imports if you need to use the HttpClient wrapper
 // import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
@@ -23,10 +21,8 @@ import { ChallengeEditComponent } from './challenges/challenge-edit/challenge-ed
     ],
     declarations: [
         AppComponent,
-        CurrentChallengeComponent,
-        StackComponent,
-        FlexComponent,
         ChallengeEditComponent,
+        CurrentChallengeComponent
     ],
     providers: [],
     schemas: [

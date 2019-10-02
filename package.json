@@ -1,8 +1,8 @@
 {
   "nativescript": {
-    "id": "org.nativescript.smartPlant",
+    "id": "org.nativescript.wrapper",
     "tns-android": {
-      "version": "6.1.1"
+      "version": "6.1.2"
     },
     "tns-ios": {
       "version": "6.1.0"
@@ -28,14 +28,11 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular/cli": "^8.3.6",
     "@angular/compiler-cli": "~8.2.0",
-    "@nativescript/schematics": "^0.7.1",
     "@ngtools/webpack": "~8.2.0",
-    "@schematics/angular": "^8.3.6",
     "nativescript-dev-webpack": "~1.2.0",
     "typescript": "~3.5.3"
   },
-  "gitHead": "e9af7b54b243e55ef28e4610c4ef8c83837d86c0",
+  "gitHead": "1964ea9e8ca1a0518e0d6370781eedcf6c23db42",
   "readme": "NativeScript Application"
 }

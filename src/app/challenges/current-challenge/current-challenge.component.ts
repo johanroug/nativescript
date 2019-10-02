@@ -8,10 +8,4 @@ import { Component } from "@angular/core";
 })
 export class CurrentChallengeComponent {
   currentChallenge = '';
-  challengeDescription = '';
-
-  setChallenge() {
-    console.log(this.challengeDescription);
-    this.currentChallenge = this.challengeDescription;
-  }
 }
