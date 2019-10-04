@@ -7,10 +7,5 @@ import { Component } from '@angular/core';
   moduleId: module.id
 })
 export class ChallengeEditComponent {
-  challengeDescription = '';
 
-  setChallenge() {
-    console.log(this.challengeDescription);
-    //this.currentChallenge = this.challengeDescription;
-  }
 }
